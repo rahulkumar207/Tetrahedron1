@@ -89,7 +89,7 @@ const MobileMenu = ({ handleMobileMenu }) => {
                                         <span className="fa fa-angle-right" />
                                     </button>
                                     <ul style={{ display: isActive.key == 2 && isActive.subMenuKey == "sub1" ? "block" : "none" }}>
-                                        <li><Link href="team" onClick={handleLinkClick}>Operational Excellence Consulting</Link></li>
+                                        <li><Link href="/consulting/manufacturing-operational-excellence-consulting" onClick={handleLinkClick}>Operational Excellence Consulting</Link></li>
                                         <li><Link href="testimonials" onClick={handleLinkClick}>TPM Consulting</Link></li>
                                         <li><Link href="pricing" onClick={handleLinkClick}>TQM Consulting</Link></li>
                                         <li><Link href="gallery" onClick={handleLinkClick}>Lean Manufacturing Cost Reduction</Link></li>
@@ -261,7 +261,7 @@ const MobileMenu = ({ handleMobileMenu }) => {
                                 <span className="fa fa-angle-right" />
                             </button>
                             <ul style={{ display: isActive.key == 4 ? "block" : "none" }}>
-                                <li><Link href="projects" onClick={handleLinkClick}>Autonomous Mobile Robot | AGV | AMR</Link></li>
+                                <li><Link href="/automated-guided-vehicle-manufacturers" onClick={handleLinkClick}>Autonomous Mobile Robot | AGV | AMR</Link></li>
                             </ul>
                         </li>
 

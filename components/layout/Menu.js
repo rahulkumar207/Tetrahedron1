@@ -42,7 +42,7 @@ export default function Menu() {
               <Link href="#">Mafacturing Excellence Services</Link>
               <ul>
                 <li>
-                  <Link href="team">Operational Excellence Consulting</Link>
+                  <Link href="/consulting/manufacturing-operational-excellence-consulting">Operational Excellence Consulting</Link>
                 </li>
                 <li>
                   <Link href="testimonials">TPM Consulting</Link>
@@ -367,7 +367,7 @@ export default function Menu() {
           <Link href="#">AMR/AGV</Link>
           <ul>
             <li>
-              <Link href="projects">Autonomous Mobile Robot | AGV | AMR</Link>
+              <Link href="/automated-guided-vehicle-manufacturers">Autonomous Mobile Robot | AGV | AMR</Link>
             </li>
           </ul>
         </li>
